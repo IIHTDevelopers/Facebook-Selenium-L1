@@ -184,7 +184,7 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		Assert.assertTrue(LocatorsFactoryInstance.customRadioButton(driver).isDisplayed(), " male radio button is not present in the signUp page, Please check manually");	
 	}
 	
-	@Test(priority = 19, groups = {"sanity"}, description="close the \"signup\" page and verify the All Fields prsense in The Login Page or not")
+	@Test(priority = 19, groups = {"sanity"}, description="close the \"signup\" page and verify the All Fields present in The Login Page or not")
 	public void verifyAllprsenceOfFieldAfterCloseTheSignupPage() throws Exception {	
 		FaceBookPageInstance = new FaceBookPage(driver);
 		Assert.assertTrue(FaceBookPageInstance.verifyAllprsenceOfFieldAfterCloseTheSignupPage(), "Any of the elememt is not present, please check manually");

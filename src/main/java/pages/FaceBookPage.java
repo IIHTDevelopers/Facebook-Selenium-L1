@@ -58,6 +58,7 @@ public class FaceBookPage extends StartupPage {
 	 */
 	public String validateFacebookTitleOfLoginPage() throws Exception {
 		return null;
+
 	}
 
 	/**@test2
@@ -68,19 +69,17 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean verifyPresenceOfALlFields() throws Exception {
-		
 		return null;
 	}
 
 	/**@test3
 	 * about this method validateErrorMessageWithoutProvideAnyCredentials() 
 	 * @param : null
-	 * @description : it is getting the error message and validate the error message ,
+	 * @description : it is getting the error message if login button clicked without passing email and password
 	 * @return : errorMessage as string type
 	 * @author : Yaksha
 	 */
 	public String validateErrorMessageWithoutProvideAnyCredentials() throws Exception {
-		
 		return null;
 	}
 
@@ -91,8 +90,8 @@ public class FaceBookPage extends StartupPage {
 	 * @return : null
 	 * @author : Yaksha
 	 */
-	public void enterEmailIdOrPhoneNumberInLoginPage(Map<String, String> expectedData) throws Exception {
-		
+	public boolean enterEmailIdOrPhoneNumberInLoginPage(Map<String, String> expectedData) throws Exception {
+		return false;
 	}
 
 	/**@test4
@@ -113,8 +112,8 @@ public class FaceBookPage extends StartupPage {
 	 * @return : null
 	 * @author : Yaksha
 	 */
-	public void enterPasswordInLoginPage(Map<String, String> expectedData) throws Exception {
-		
+	public boolean enterPasswordInLoginPage(Map<String, String> expectedData) throws Exception {
+		return false;
 	}
 
 	/**@test5
@@ -125,9 +124,7 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public String validateErrorMessageWithoutProvideEmailOrPhoneNumber() throws Exception {
-		
 		return null;
-
 	}
 
 	/**@test6
@@ -138,7 +135,6 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean goBackToLogInPageAndValidateCreateNewAccountButtonIsPresentOrNot() throws Exception {
-		
 		return null;
 	}
 
@@ -150,8 +146,8 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public String validateNavigateToTheSignUpPage() throws Exception {
-		
 		return null;
+
 	}
 
 	/**@test8
@@ -162,7 +158,6 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean verifyPresenceOfAllFieldsPresentInTheSignUpPage() throws Exception {
-		
 		return null;
 	}
 
@@ -174,9 +169,7 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public  String enterDataInFirstNameFieldSignupPage( Map<String, String> expectedData) throws Exception {
-		
 		return null;
-
 	}
 
 	/**@test10
@@ -187,9 +180,8 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 *
 	 */
-	public  void enterDataInSignUpPage( Map<String, String> expectedData) throws Exception {
-		
-		
+	public  boolean enterDataInSignUpPage( Map<String, String> expectedData) throws Exception {
+		return false;
 	}
 
 	/**@test11
@@ -200,7 +192,6 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean selectDateFromDateDropdownAndVerifyDateDropdownIsPrsentOrNot() throws Exception {
-		
 		return null;
 	}
 
@@ -212,7 +203,6 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean selectAnyMonthFromMonthDropdownAndVerifyMonthDropdownIsPrsentOrNot() throws Exception {
-				
 		return null;
 	}
 
@@ -224,7 +214,6 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean selectAnyYearFromYearDropdownAndVerifyYearDropdownIsPrsentOrNot() throws Exception {
-		
 		return null;
 	}
 
@@ -236,8 +225,6 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean selectCustomRadioButtonAndVerifyCustomRadioButtonIsPrsentOrNot() throws Exception {
-		
-		
 		return null;
 	}
 
@@ -249,7 +236,6 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean selectAnyOptionFromYourPronouDropdownAndVerifyYourPronouDropdownIsPrsentOrNot() throws Exception {
-		
 		return null;
 	}
 
@@ -261,8 +247,6 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean enterValueInGenderOptionalTextFieldAndValidateGenderOptionalTextFieldIsPresentOrNot(Map<String, String> expectedData) throws Exception {
-		
-		
 		return null;
 	}
 
@@ -274,7 +258,6 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean selectFemaleRadioButtonAndVerifyFemaleRadioButtonIsPrsentOrNot() throws Exception {
-		
 		return null;
 	}
 
@@ -286,7 +269,6 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean selectMaleRadioButtonAndVerifyMaleRadioButtonIsPrsentOrNot() throws Exception {
-		
 		return null;
 	}
 
@@ -298,9 +280,7 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean verifyAllprsenceOfFieldAfterCloseTheSignupPage() throws Exception {
-		
 		return null;
-
 	}
 
 	/**@test20
@@ -311,7 +291,6 @@ public class FaceBookPage extends StartupPage {
 	 * @author : Yaksha
 	 */
 	public Boolean enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot(Map<String, String> expectedData) throws Exception {
-		
 		return null;
 	}
 
