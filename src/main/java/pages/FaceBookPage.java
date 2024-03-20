@@ -38,7 +38,13 @@ public class FaceBookPage extends StartupPage {
 	By selectMaleRadioButton = By.xpath("");
 	By closeSignupPageImage = By.xpath("");
 
+	
+	By errorMessageWithoutCredential1 = By.xpath(""); 
+	
+	By withoutPasswordErrorMessage1 = By.xpath("");
 
+
+	
 
 
 
