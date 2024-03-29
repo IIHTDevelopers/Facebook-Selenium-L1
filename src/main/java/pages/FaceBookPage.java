@@ -223,73 +223,19 @@ public class FaceBookPage extends StartupPage {
 		return null;
 	}
 
+	
 	/**@test14
-	 * about this method selectCustomRadioButtonAndVerifyCustomRadioButtonIsPrsentOrNot() 
-	 * @param : null
-	 * @description : it is select "custom" radio button and verify "custom" radio button is present in current page or not 
-	 * @return : true
-	 * @author : Yaksha
-	 */
-	public Boolean selectCustomRadioButtonAndVerifyCustomRadioButtonIsPrsentOrNot() throws Exception {
-		return null;
-	}
-
-	/**@test15
-	 * about this method selectAnyOptionFromYourPronouDropdownAndVerifyYourPronouDropdownIsPrsentOrNot() 
-	 * @param : null
-	 * @description : it is select any option from "SelectYourPronoun" dropdown and verify "SelectYourPronoun" is present in current page or not 
-	 * @return : true
-	 * @author : Yaksha
-	 */
-	public Boolean selectAnyOptionFromYourPronouDropdownAndVerifyYourPronouDropdownIsPrsentOrNot() throws Exception {
-		return null;
-	}
-
-	/**@test16
-	 * about this method enterValueInGenderOptionalTextFieldAndValidateGenderOptionalTextFieldIsPresentOrNot() 
-	 * @param : null
-	 * @description : send the value in In Gender Optional TextField and verify Gender Optional TextField is present or not
-	 * @return : true
-	 * @author : Yaksha
-	 */
-	public Boolean enterValueInGenderOptionalTextFieldAndValidateGenderOptionalTextFieldIsPresentOrNot(Map<String, String> expectedData) throws Exception {
-		return null;
-	}
-
-	/**@test17
-	 * about this method selectFemaleRadioButtonAndVerifyFemaleRadioButtonIsPrsentOrNot() 
-	 * @param : null
-	 * @description : it is select "Female" radio button and verify "Female" radio button is present in current page or not 
-	 * @return : true
-	 * @author : Yaksha
-	 */
-	public Boolean selectFemaleRadioButtonAndVerifyFemaleRadioButtonIsPrsentOrNot() throws Exception {
-		return null;
-	}
-
-	/**@test18
-	 * about this method selectMaleRadioButtonAndVerifyMaleRadioButtonIsPrsentOrNot() 
-	 * @param : null
-	 * @description : it is select "Male" radio button and verify "male" radio button is present in current page or not 
-	 * @return : true
-	 * @author : Yaksha
-	 */
-	public Boolean selectMaleRadioButtonAndVerifyMaleRadioButtonIsPrsentOrNot() throws Exception {
-		return null;
-	}
-
-	/**@test19
-	 * about this method verifyAllprsenceOfFieldAfterCloseTheSignupPage() 
+	 * about this method verifyAllpresentOfFieldAfterCloseTheSignupPage() 
 	 * @param : null
 	 * @description : close the sign up page and verify all fields is present in current page or not 
 	 * @return : true
 	 * @author : Yaksha
 	 */
-	public Boolean verifyAllprsenceOfFieldAfterCloseTheSignupPage() throws Exception {
+	public Boolean verifyAllpresentOfFieldAfterCloseTheSignupPage() throws Exception {
 		return null;
 	}
 
-	/**@test20
+	/**@test15
 	 * about this method enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot() 
 	 * @param : Map<String, String> expectedData (getting the data from the expected Json file
 	 * @description : enter the username and password in the corresponding Text filed and verify login button is present or not

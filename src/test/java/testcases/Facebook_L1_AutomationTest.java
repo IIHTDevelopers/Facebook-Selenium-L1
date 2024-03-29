@@ -148,51 +148,16 @@ public class Facebook_L1_AutomationTest extends AppTestBase {
 		Assert.assertTrue(LocatorsFactoryInstance.femaleRadioButton(driver).isDisplayed(), " Female Radio Button is not present in the signUp page, Please check manually");	
 	}
 	
-	@Test(priority = 14, groups = {"sanity"}, description="select \"Custom\" radio button and validate \"Custom\" radio button is present or not")
-	public void selectCustomRadioButtonAndVerifyCustomRadioButtonIsPrsentOrNot() throws Exception {	
-		FaceBookPageInstance = new FaceBookPage(driver);
-		Assert.assertTrue(FaceBookPageInstance.selectCustomRadioButtonAndVerifyCustomRadioButtonIsPrsentOrNot(), "Custom Radio button element is not present, please check manually");
-		Assert.assertTrue(LocatorsFactoryInstance.selectYourPronounDropdown(driver).isDisplayed(), " selectYourPronoun Dropdown is not present in the signUp page, Please check manually");	
-	}
 	
-	@Test(priority = 15, groups = {"sanity"}, description="select any option from the \"Select your pronoun\" dropdown and verify \"Select your pronoun\" dropdown\" is present or not")
-	public void selectAnyOptionFromYourPronouDropdownAndVerifyYourPronouDropdownIsPrsentOrNot() throws Exception {	
-		FaceBookPageInstance = new FaceBookPage(driver);
-		Assert.assertTrue(FaceBookPageInstance.selectAnyOptionFromYourPronouDropdownAndVerifyYourPronouDropdownIsPrsentOrNot(), "Custom Radio button element is not present, please check manually");
-		Assert.assertTrue(LocatorsFactoryInstance.genderOptionalTextBox(driver).isDisplayed(), " Gender Optional TextBox is not present in the signUp page, Please check manually");	
-	}
 	
-	@Test(priority = 16, groups = {"sanity"}, description="Enter Value in \"Gender Optional\" Textfield and verify \"Gender Optional\" Textfield is present or not")
-	public void enterValueInGenderOptionalTextFieldAndValidateGenderOptionalTextFieldIsPresentOrNot() throws Exception {
-		FaceBookPageInstance = new FaceBookPage(driver);
-		String expectedDataFilePath = testDataFilePath+"expected_data.json";
-		Map<String, String> expectedData = new FileOperations().readJson(expectedDataFilePath, "Gender_Optional_TextField_data");
-		FaceBookPageInstance.enterValueInGenderOptionalTextFieldAndValidateGenderOptionalTextFieldIsPresentOrNot(expectedData);
-		Assert.assertTrue(LocatorsFactoryInstance.femaleRadioButton(driver).isDisplayed(), "female Radio Button is not present in the current page, Please check manually");
-	}
-	
-	@Test(priority = 17, groups = {"sanity"}, description="select \"Female\" radio button and validate \"Female\" radio button is present or not")
-	public void selectFemaleRadioButtonAndVerifyFemaleRadioButtonIsPrsentOrNot() throws Exception {	
-		FaceBookPageInstance = new FaceBookPage(driver);
-		Assert.assertTrue(FaceBookPageInstance.selectFemaleRadioButtonAndVerifyFemaleRadioButtonIsPrsentOrNot(), "Female Radio button element is not present, please check manually");
-		Assert.assertTrue(LocatorsFactoryInstance.maleRadioButton(driver).isDisplayed(), " male radio button is not present in the signUp page, Please check manually");	
-	}
-	
-	@Test(priority = 18, groups = {"sanity"}, description="select \"Male\" radio button and validate \"Male\" radio button is present or not")
-	public void selectMaleRadioButtonAndVerifyFemaleRadioButtonIsPrsentOrNot() throws Exception {	
-		FaceBookPageInstance = new FaceBookPage(driver);
-		Assert.assertTrue(FaceBookPageInstance.selectMaleRadioButtonAndVerifyMaleRadioButtonIsPrsentOrNot(), "Male Radio button element is not present, please check manually");
-		Assert.assertTrue(LocatorsFactoryInstance.customRadioButton(driver).isDisplayed(), " male radio button is not present in the signUp page, Please check manually");	
-	}
-	
-	@Test(priority = 19, groups = {"sanity"}, description="close the \"signup\" page and verify the All Fields present in The Login Page or not")
+	@Test(priority = 14, groups = {"sanity"}, description="close the \"signup\" page and verify the All Fields present in The Login Page or not")
 	public void verifyAllprsenceOfFieldAfterCloseTheSignupPage() throws Exception {	
 		FaceBookPageInstance = new FaceBookPage(driver);
-		Assert.assertTrue(FaceBookPageInstance.verifyAllprsenceOfFieldAfterCloseTheSignupPage(), "Any of the elememt is not present, please check manually");
+		Assert.assertTrue(FaceBookPageInstance.verifyAllpresentOfFieldAfterCloseTheSignupPage(), "Any of the elememt is not present, please check manually");
 		Assert.assertTrue(LocatorsFactoryInstance.getLoginButton(driver).isDisplayed(), " login button is not present in the signUp page, Please check manually");	
 	}
 	
-	@Test(priority = 20, groups = {"sanity"}, description="Enter valid email or phone no in  email or phone no text field and enter password in password textfield and validate \"login\" button is present or not")
+	@Test(priority = 15, groups = {"sanity"}, description="Enter valid email or phone no in  email or phone no text field and enter password in password textfield and validate \"login\" button is present or not")
 	public void enterValidEmail_PasswordInTextFieldAndVerifyLoginButtonIsPresentOrNot() throws Exception {	
 		FaceBookPageInstance = new FaceBookPage(driver);
 		String expectedDataFilePath = testDataFilePath+"expected_data.json";
